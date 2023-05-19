@@ -60,7 +60,7 @@
 
 ![Alt text](Project-02/Job-Application.png)
 
-### Here the HTML code for this :
+### Here is the HTML code for this :
 
 ```html
 <h3>Job Application</h3>
@@ -133,5 +133,99 @@
         <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
         <br>
         <input type="submit" value="Submit Application">
+    </form>
+```
+
+## Let's Code a Complex Form (Project-03):
+
+![Alt text](Project-03/Complex-Form.png)
+
+### Here is the HTML code for this:
+
+```html
+<h2>Complex Form</h2>
+    <form>
+        <fieldset>
+            <legend><strong>Personal Information</strong></legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+
+            <br /><br />
+
+            <label for="emailID">Email:</label>
+            <input type="email" id="emailID" name="emailID" />
+
+            <br /><br />
+
+            <label for="phoneID">Phone:</label>
+            <input type="tel" name="phoneID" id="Phone" />
+
+            <br /><br />
+
+            <label for="dof">Date of Birth:</label>
+            <input type="date" name="dof" id="dof">
+
+            <br><br>
+
+            <!-- We can easily use span here -->
+            <p style="display: inline;">Gender:</p>
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+
+            <br><br>
+
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="bangladesh">Bangladesh</option>
+                <option value="india">India</option>
+                <option value="us">USA</option>
+                <option value="uk">Japan</option>
+            </select>
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend><strong>Address</strong></legend>
+
+            <label for="street">Street:</label>
+            <input type="text" name="street" id="street">
+
+            <br><br>
+
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city">
+
+            <br><br>
+
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state">
+
+            <br><br>
+
+            <label for="zipcode">Zip Code:</label>
+            <input type="text" name="zipcode" id="zipcode">
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend><strong>Other Information</strong></legend>
+
+            <label for="textarea1">Comments:</label>
+            <br>
+            <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
+
+            <label for="terms">I agree to the terms of service:</label>
+            <input type="checkbox" name="terms" id="terms">
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
     </form>
 ```
