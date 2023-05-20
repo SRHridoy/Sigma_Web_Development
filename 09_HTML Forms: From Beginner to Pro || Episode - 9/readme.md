@@ -229,3 +229,81 @@
         <input type="submit" value="Submit">
     </form>
 ```
+## Homework:
+
+![Alt text](Homework/Homework-Form.png)
+
+### Code ---->
+
+```html
+<h1>RannaBanna Login</h1>
+    <form>
+
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username">
+
+        <br><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass">
+
+        <br><br>
+
+        <label for="Location:">Location:</label>
+        <input type="text" name="Location" id="Location">
+
+        <br><br>
+
+        <label for="mainfood">Main
+            Food</label>
+        <select name="mainfood" id="mainfood">
+            <option value="">--Please choose an option--</option>
+            <option value="Rice">Rice</option>
+            <option value="Bread">Bread</option>
+            <option value="Corn">Corn</option>
+            <option value="Fish">Fish</option>
+        </select>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Please Specify Your Role:</legend>
+
+            <input type="radio" name="roles" id="fv">
+            <label for="fv">Food Vlogger</label>
+
+            <input type="radio" name="roles" id="Cook">
+            <label for="Cook">Cook</label>
+
+            <input type="radio" name="roles" id="assistant">
+            <label for="assistant">Assistant</label>
+
+            <input type="radio" name="roles" id="waiter">
+            <label for="waiter">Waiter</label>
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Do you have?</legend>
+
+            <label for="mail">Email</label>
+            <input type="checkbox" name="email" id="email">
+
+            <br>
+
+            <label for="fb">Facebook</label>
+            <input type="checkbox" name="fb" id="fb">
+
+            <br>
+
+            <label for="whatsapp">WhatsApp</label>
+            <input type="checkbox" name="whatsapp" id="whatsapp">
+
+            <br><br>
+
+            <input type="submit" value="Login">
+            <input type="submit" value="Reset">
+        </fieldset>
+    </form>
+```
