@@ -307,3 +307,200 @@
         </fieldset>
     </form>
 ```
+
+
+# Project 1: HTML Resume Project || Complete Web Development Series 2023 || Episode - 10
+
+## How to insert spaces/tabs in text using HTML/CSS?
+     Regular space: &nbsp;
+     Two spaces gap: &ensp;
+     Four spaces gap: &emsp;
+
+># How to add FAQS:
+
+![Alt text](10_Project%201:%20HTML%20Resume%20Project%20%7C%7C%20Complete%20Web%20Development%20Series%202023%20%7C%7C%20Episode%20-%2010/Resume-Project_FAQs.png)
+
+![Alt text](10_Project%201:%20HTML%20Resume%20Project%20%7C%7C%20Complete%20Web%20Development%20Series%202023%20%7C%7C%20Episode%20-%2010/FAQs.png)
+
+```html
+<section>
+            <h2>Frequently Asked Questions: </h2>
+
+            <details>
+                <summary>What is Yout Name ?</summary>
+                <p>My name is SRHridoy.</p>
+            </details>
+
+            <details>
+                <summary>What is your favourite programming laguage></summary>
+                <p>My favourite programming laguage is Python.</p>
+            </details>
+
+            <details>
+                <summary>What is C?</summary>
+                <p>C is a Structured Programming Language.</p>
+            </details>
+
+            <details>
+                <summary>What is static?</summary>
+                <p>static is a storage class.</p>
+            </details>
+
+        </section>
+```
+
+>>## Project -01:
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Project</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>Md. Sohanur Rahman Hridoy</h1>
+            <p>Contact: <a href="mailto:sohanurrahmanhridoy007@gmail.com">sohanurrahmanhridoy007@gmail.com</a></p>
+            <p>LinkedIn: <a
+                    href="https://www.linkedin.com/in/md-sohanur-rahman-hridoy-2385ab257/">linkedin.com/in/md-sohanur-rahman-hridoy</a>
+            </p>
+            <p>github: <a href="https://github.com/SRHridoy">https://github.com/SRHridoy</a></p>
+        </div>
+
+        <table>
+            <tr>
+                <td>
+                    <img src="profile.png" width="120px" alt="profile pic">
+                </td>
+                <td>
+                    I am a passionate software engineer with ecpertise in problem-solving and algorithmic thinking.I
+                    love to explore various techniologies and frameworks to devlop efficient and scable solutions. A
+                    highly motivated and dedicated CSE undergraduate student seeking opportunities to apply my technical
+                    knowledge and skills in a challenging industry environment. Committed to contributing to innovative
+                    projects and leveraging my problem-solving abilities to drive technological advancements.
+                </td>
+            </tr>
+        </table>
+
+        <section>
+            <h2>Education</h2>
+
+            <ul>
+                <li>Higher School Cirtificate
+                    <br> &emsp; GPA: 5.00
+                </li>
+
+                <li>B.Sc.(Engineering) in CSE</li>
+            </ul>
+
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+
+        <div>
+            <h3>Passionate Competittive Programmer</h3>
+            <ul>
+                <li>Solved Around 400+ Problems in Online Judges</li>
+                <li>Give Contest at CODEFORCES in regular basis</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Web Devloper</h3>
+            <ul>
+                <li>Developed and maintained web applications using HTML, CSS and JavaScript</li>
+                <li>Collaborate with cross-functional teams to design and implement software solutions</li>
+                <li>Optimize code performance and improved application efficiency</li>
+            </ul>
+        </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+
+        <section>
+            <h>Achievements</h>
+            <ul>
+                <li>Participate in CSE FEST - 2k23</li>
+                <li>Made a HSTU HAES website</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>HSTU Alumni Employment Solution</h3>
+                    <p>A Job Finding website for hstu alumni.</p>
+                    <p>Hosted Link: <a href="abcd.com">hstu.com</a></p>
+                    <p>Github Link: <a href="abc.com">github?hstu</a></p>
+                </li>
+                <li>
+                    <h3>Friendly Chat App</h3>
+                    <p>Friendly Chat - An android application making use of firebase, to help people connect and chat by sending messages and images also having login options.</p>
+                    <p>Hosted Link: <a href="abcd.com">friendly.com</a></p>
+                    <p>Github Link: <a href="abc.com">github.firiendly.com</a></p>
+                </li>
+                <li>
+                    <h3>Secure Messenger AppSecure</h3>
+                    <p>Secure Messenger App - An android application to have secure communication between the sender and recipient, using a number of cryptography algorithms like ASE, DES, RSA techniques for encryption and decryption.</p>
+                    <p>Hosted Link: <a href="abcd.com">secureMessenger.com</a></p>
+                    <p>Github Link: <a href="abc.com">github/secureMessage.com</a></p>
+                </li>
+            </ul>
+
+
+
+        </section>
+
+        <section>
+            <h2>Frequently Asked Questions: </h2>
+
+            <details>
+                <summary>What is Yout Name ?</summary>
+                <p>My name is SRHridoy.</p>
+            </details>
+
+            <details>
+                <summary>What is your favourite programming laguage?</summary>
+                <p>My favourite programming laguage is Python.</p>
+            </details>
+
+            <details>
+                <summary>What is C?</summary>
+                <p>C is a Structured Programming Language.</p>
+            </details>
+
+            <details>
+                <summary>What is static?</summary>
+                <p>static is a storage class.</p>
+            </details>
+
+        </section>
+
+        <footer>
+            <p>&copy; 2023 SRHridoy, All rights reserved.</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
+```
+
