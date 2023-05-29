@@ -782,3 +782,27 @@ In the same way, we can embed youtube videos from the youtube share embed link:
 ```html
 <iframe src="https://www.youtube.com/embed/dw6vREeeTXE" width="560" height="315" allowfullscreen></iframe>
 ```
+
+
+>## How to autoplay a video:
+
+This is the code before auto-play: 
+```html
+<iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+```
+
+This is the code for auto-play:
+```html
+<iframe src="https://youtube.com/embed/XKPjzFROqyI?autoplay=1" width="450px" height="250px"></iframe>
+```
+Only we add ?autoplay=1 after the link.
+
+>## How to auto play a video and mute : 
+```html
+<iframe src="https://youtube.com/embed/XKPjzFROqyI?autoplay=1&mute=1" width="450px" height="250px"></iframe>
+```
+
+
+
+
+
