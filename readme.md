@@ -699,4 +699,86 @@
 
 </html>
 ```
+<br><br>
 
+># Project 2: HTML Media Project || Media tags, Modern HTML and iframes || Episode - 11
+
+<br>
+
+## Media in HTML:
+1. Image
+2. Audio
+3. Video
+
+>### Inserting Images :
+```html
+<img src="resources/channel logo.jpg" alt="logo" height="50px" loading="lazy">
+```
+<br>
+
+**What **is Easy Loading?****
+Lazy loading is a strategy to identify resources as non-blocking (non-critical) and load these only when needed.
+
+<br>
+
+>## Inserting Audios :
+
+```html
+<audio src="resources/Real-Estate.mp3"></audio>
+```
+***But this doesn't work if we don't give control attribute***
+```html
+<audio src="resources/Real-Estate.mp3" controls></audio>
+```
+
+<br>
+
+>### Another Method:
+
+```html
+<audio controls>
+        <source src="resources/Real-Estate.mp3" type="audio/mp3">
+</audio>
+```
+
+<br><br>
+
+>## Inserting Video :
+```html
+<audio controls>
+        <source src="resources/Real-Estate.mp3" type="audio/mp3">
+</audio>
+```
+
+>### Another Method : 
+
+``` html
+<video controls height="500px">
+        <source src="resources/ Intro Video.mp4" type="video/mp4">
+</video>
+``` 
+
+<br> <br>
+
+>## iframe: The Inline Frame element
+        An HTML iframe is used to display a web page within a web page.
+
+>### Adding my another html project to this html file :
+
+```html
+<iframe src="/10_Project 1: HTML Resume Project || Complete Web Development Series 2023 || Episode - 10/index.html" width="800px" height="720px"></iframe>
+```
+<br>
+
+>### Adding a map on my page : 
+
+```html
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.1734628269196!2d88.65360114047354!3d25.69868017748577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e4ad0b5d200fa7%3A0x2e0c8f8bb049efa2!2sHajee%20Mohammad%20Danesh%20Science%20%26%20Technology%20University!5e0!3m2!1sen!2sbd!4v1685549697407!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+```
+I copy the upper inframe code from Google Maps and share embedded HTML.
+
+In the same way, we can embed youtube videos from the youtube share embed link: 
+
+```html
+<iframe src="https://www.youtube.com/embed/dw6vREeeTXE" width="560" height="315" allowfullscreen></iframe>
+```
