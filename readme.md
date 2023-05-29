@@ -786,6 +786,8 @@ In the same way, we can embed youtube videos from the youtube share embed link:
 
 >## How to autoplay a video:
 
+<br>
+
 This is the code before auto-play: 
 ```html
 <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
@@ -798,11 +800,204 @@ This is the code for auto-play:
 Only we add ?autoplay=1 after the link.
 
 >## How to auto play a video and mute : 
+<br>
+
 ```html
 <iframe src="https://youtube.com/embed/XKPjzFROqyI?autoplay=1&mute=1" width="450px" height="250px"></iframe>
 ```
 
+<br> <br>
+># Project of Media :
+
+![Alt text](11_Project%202:%20HTML%20Media%20Project%20%7C%7C%20Media%20tags,%20Modern%20HTML%20and%20iframes%20%7C%7C%20Episod/project_media/carbon.png)
 
 
+<br><br>
+
+>## Code for this Project : 
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Media Project</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Gist Of CSE</h1>
+    </header>
+
+    <table>
+        <tr>
+            <td>
+                <img src="channel logo.jpg" alt="channel logo" />
+            </td>
+            <td>
+                <nav>
+                    <ul>
+                        <li><a href="#cpv">C Programming Videos</a></li>
+                        <li><a href="#DS">DS using C</a></li>
+                        <li><a href="#NM">Numerical Method videos</a></li>
+                        <li><a href="#stat">Statistics Videos</a></li>
+                    </ul>
+                </nav>
+            </td>
+        </tr>
+    </table>
+
+    <section>
+        <h2>About Gist Of CSE</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+            pariatur, totam illum placeat voluptas necessitatibus doloremque,
+            praesentium ex tempora esse aliquid natus iusto, libero a? Doloribus,
+            tenetur voluptatum? Doloribus maxime vero quia officiis recusandae
+            similique repellat, odit enim corrupti voluptates?
+        </p>
+    </section>
+
+    <main>
+        <section>
+            <h2>Additional Media</h2>
+            <table>
+                <tr>
+                    <td>
+                        <audio src="Real-Estate.mp3" controls></audio>
+                    </td>
+                    <td>
+                        <video src="INV.mp4" width="500px" controls></video>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+
+        <section id="cpv">
+            <h2>C Programming Videos</h2>
+            <table>
+                <tr>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI?autoplay=1&mute=1" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="DS">
+            <h2>DS using C Videos</h2>
+            <table>
+                <tr>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI?autoplay=1" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="NM">
+            <h2>Numerical Method</h2>
+            <table>
+                <tr>
+                    <td>
+                        <iframe src="https://youtube.com/embed/dw6vREeeTXE" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/dw6vREeeTXE" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/dw6vREeeTXE" width="450px" height="250px"></iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <iframe src="https://youtube.com/embed/dw6vREeeTXE" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/dw6vREeeTXE" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/dw6vREeeTXE" width="450px" height="250px"></iframe>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="stat">
+            <h2>Statistics Videos</h2>
+            <table>
+                <tr>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://youtube.com/embed/XKPjzFROqyI" width="450px" height="250px"></iframe>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        © 2023 Gist Of CSE. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
+```
 
 
