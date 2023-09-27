@@ -55,3 +55,37 @@ body{
 ```js
 alert("Welcome to Sigma Web Development Course")
 ```
+> # <mark> Day-03:</mark>
+
+## HTML :
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Used for SEO -->
+    <meta name="description" content="">
+    <title>tittle of the page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    content
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+## CSS : 
+
+```
+body{
+    background-color: red;
+}
+```
+
+## JavaScript : 
+
+```
+alert("Hello!")
+```
