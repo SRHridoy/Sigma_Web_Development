@@ -126,8 +126,7 @@ body{
     background-color: rgb(229, 125, 177);
 }
 ```
-
-><mark>Bookmark Project</mark>
+> ## <mark>Bookmark Project</mark>
 
 ```html
 <!DOCTYPE html>
@@ -152,5 +151,157 @@ body{
     <p><a href="https://quora.com">Quora</a></p>
 </body>
 
+</html>
+```
+
+> # <mark>Day-05</mark>
+
+## <mark>Image and Table Tag :</mark>
+
+### HTML :
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <img width="230" src="train.jpg" alt="Train Image"> -->
+    <!-- Height or width er jekono ekta dile arekta automatic fixed hoye jai ar egula pixel e hoi ar px ba kono kisu likha lage nah automatic hoi sudhu valu dilei hoi -->
+    <img height="640" src="train.jpg" alt="Train Image">
+    <br>
+    <!-- Tables : -->
+    <table>
+        <caption>Friend Details : </caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Favourite Language</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Hridoy</td>
+                <td>Programmer</td>
+                <td>JavaScript</td>
+            </tr>
+
+            <tr>
+                <!-- Arnob ekhon 2 column er jaiga nibe -->
+                <td colspan="2">Arnob</td>
+                <!-- <td>Programmer</td> -->
+                <!-- Python ekhon 2 ta row er jaiga nibe -->
+                <td rowspan="2">Python</td>
+            </tr>
+            <tr>
+                <!-- Ozaer ekhon 2 column er jaiga nibe -->
+                <td colspan="2">Ozaer</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Robi</td>
+                <td rowspan="2">Foot</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
+```
+
+### CSS :
+
+```css
+td{
+    border: 2px solid black;
+}
+```
+
+## <mark> List Tag : </mark>
+
+### HTML : 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <h1>Unordered List :</h1>
+    <ul>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Water Milon</li>
+        <li>Apple</li>
+    </ul>
+    <ul type = "square">
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Water Milon</li>
+        <li>Apple</li>
+    </ul>
+    <ul type = "circle">
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Water Milon</li>
+        <li>Apple</li>
+    </ul>
+    
+    <h1>Ordered List : </h1>
+    <ol>
+        <li>Dog</li>
+        <li>Cat</li>
+        <li>Donkey</li>
+    </ol>
+    <ol type="I">
+        <li>Dog</li>
+        <li>Cat</li>
+        <li>Donkey</li>
+    </ol>
+    <ol type="A">
+        <li>Dog</li>
+        <li>Cat</li>
+        <li>Donkey</li>
+    </ol>
+    <ol type="a">
+        <li>Dog</li>
+        <li>Cat</li>
+        <li>Donkey</li>
+    </ol>
+    <ol type="i">
+        <li>Dog</li>
+        <li>Cat</li>
+        <li>Donkey</li>
+    </ol>
+
+    <h1>HTML Defination List</h1>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, assumenda?</dd>
+    </dl>
+    <dl>
+        <dt>CSS</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, aspernatur.</dd>
+    </dl>
+    <dl>
+        <dt>JavaScript</dt>
+        <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, iure!</dd>
+    </dl>
+</body>
 </html>
 ```

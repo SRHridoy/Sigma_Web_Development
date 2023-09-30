@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <img width="230" src="train.jpg" alt="Train Image"> -->
+    <!-- Height or width er jekono ekta dile arekta automatic fixed hoye jai ar egula pixel e hoi ar px ba kono kisu likha lage nah automatic hoi sudhu valu dilei hoi -->
+    <img height="640" src="train.jpg" alt="Train Image">
+    <br>
+    <!-- Tables : -->
+    <table>
+        <caption>Friend Details : </caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Favourite Language</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Hridoy</td>
+                <td>Programmer</td>
+                <td>JavaScript</td>
+            </tr>
+
+            <tr>
+                <!-- Arnob ekhon 2 column er jaiga nibe -->
+                <td colspan="2">Arnob</td>
+                <!-- <td>Programmer</td> -->
+                <!-- Python ekhon 2 ta row er jaiga nibe -->
+                <td rowspan="2">Python</td>
+            </tr>
+            <tr>
+                <!-- Ozaer ekhon 2 column er jaiga nibe -->
+                <td colspan="2">Ozaer</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Robi</td>
+                <td rowspan="2">Foot</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
