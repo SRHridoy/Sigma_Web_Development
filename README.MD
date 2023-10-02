@@ -333,3 +333,116 @@ td{
 </body>
 </html>
 ```
+
+> # <mark>Day-07</mark>
+
+## Forms : 
+
+### HTML : 
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Lets learn</title>
+</head>
+
+<body>
+    <!--get and post are method... Get request is simple and post request is complex etar madhoome boro boro data pathano hoi...-->
+    <h1>Form to apply for Sigma Web Development Course - TA</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your Username :</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+        </div>
+        <!-- Radio -->
+        <div>
+            <!-- Ekhane 2 tar name e same tai at a time jekono ekta select hobe... -->
+            <!-- Id er value laber er for e hobe...Er kaj holo label er vitorer text e tap korlei oita select hobe -->
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <!-- CheckBox -->
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" id="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+        <!-- Text area -->
+        <div>
+            <label for="comment">Enter your comment:</label>
+            <br>
+            <!-- br is not recommended... -->
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+        <!-- Select Tag -->
+        <div>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
+```
+
+> # Common Attributes:
+
+## action
+The action attribute specifies the URL where the form data should be sent after submission.
+```html
+<form action="/submit.php" method="POST">
+</form>
+```
+
+## method
+The method attribute defines how data is sent. The two most common methods are GET and POST.
+```html
+<form action="/submit.php" method="POST">
+</form>
+```
+
+## name
+The name attribute specifies the name for the form element, making it easier to reference in scripts or the server-side code.
+```html
+<input type="text" name="username">
+```
+
+## placeholder
+This attribute provides a hint to the user as to what can be entered in the field.
+```html
+<input type="text" placeholder="Enter your username">
+```
+
+## required
+The required attribute makes a field mandatory to fill out.
+```html
+<input type="text" required>
+```
+
+## autofocus
+The autofocus attribute automatically focuses the cursor on the particular input when the page loads.
+```html
+<input type="text" autofocus>
+```
+
+>## HTML5 Validation Attributes:
+
+## required
+As mentioned above, this attribute makes a field mandatory.
+```html
+<input type="text" required>
+```
+
+## pattern
+The pattern attribute specifies a regular expression that the input must match to be valid.
+```html
+<input type="text" pattern="[a-zA-Z0-9]+">
+```
