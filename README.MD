@@ -446,3 +446,166 @@ The pattern attribute specifies a regular expression that the input must match t
 ```html
 <input type="text" pattern="[a-zA-Z0-9]+">
 ```
+
+> # <mark>Day-08</mark>
+
+## Inline & Block Elements in HTML :
+
+### HTML : 
+
+```html
+<!-- Inline Elements : Jototuk dorkar tototuk jaiga nei... -->
+<!-- Block Elements : Pura Jaiga dokhol kore... -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline & Block Elements - HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p>Hey, this is Paragraph tag...</p>
+    <a href="https://google.com">Google</a>
+    <div>I am Div and I am a block element...</div>
+    <span>I am span and I am inline..</span>
+    <a href="">Yes he is inline</a>
+</body>
+
+</html>
+```
+
+```css
+p{
+    background-color: rgb(129, 223, 223);
+}
+
+a{
+    background-color: rgb(255, 119, 0);
+}
+
+div{
+    background-color: rgb(255, 247, 0);
+}
+
+span{
+    background-color:pink;
+}
+```
+
+> ## <mark> Block Elements (Most Commonly Used First) </mark>
+
+```html
+<div>: A generic container for flow content.
+<p>: Paragraph.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Headings.
+<ul>: Unordered list.
+<ol>: Ordered list.
+<li>: List item.
+<form>: A section containing form controls.
+<table>: Table.
+<section>: A standalone section of a document.
+<header>: A container for introductory content or a set of navigational links.
+<footer>: Footer of a section or page.
+<nav>: A section of a page that contains navigation links.
+<article>: A self-contained composition in a document.
+<aside>: A section of a page that contains information indirectly related to the main content.
+<main>: The main content of a document.
+<fieldset>: A set of form controls grouped under a common name.
+<blockquote>: A block of text that is a quotation from another source.
+<pre>: Preformatted text.
+<canvas>: A container used to draw graphics via JavaScript.
+<dl>: Description list.
+<dt>: Term in a description list.
+<dd>: Description in a description list.
+<figure>: Any content that is referenced from the main content.
+<figcaption>: A caption for a <figure> element.
+<address>: Contact information for the author or owner of the document.
+<hr>: A thematic break or a horizontal rule.
+<tfoot>: Footer of a table.
+```
+
+
+> ## <mark> Inline Elements (Most Commonly Used First)</mark>
+
+```html
+<a>: Anchor or hyperlink.
+<img>: Image.
+<span>: Generic inline container.
+<input>: Input field.
+<label>: Label for a form element.
+<strong>: Strong emphasis.
+<em>: Emphasized text.
+<br>: Line break.
+<code>: Code snippet.
+<b>: Bold text.
+<i>: Italic text.
+<u>: Underlined text.
+<small>: Smaller text.
+<sub>: Subscript.
+<sup>: Superscript.
+<mark>: Marked or highlighted text.
+<q>: Short inline quotation.
+<cite>: Citation.
+<kbd>: Keyboard input.
+<samp>: Sample output.
+<var>: Variable in a mathematical expression or programming context.
+<time>: Time.
+<abbr>: Abbreviation.
+<data>: Machine-readable translation of content.
+<acronym>: Acronym (Not supported in HTML5).
+```
+
+> ## <mark> Quick Quiz -01 : <mark>
+
+```html
+<!-- Quick Quiz 
+Without using br tag, write a vertically aligned form asking for name, city and pincode of a user.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quik_Quiz_01</title>
+</head>
+
+<body>
+    <form action="post">
+        <div>
+            <label for="name">Enter your name :</label>
+            <div>
+                <input type="text" name="name" id="name">
+            </div>
+        </div>
+        <div>
+            <label for="city">Enter your city : </label>
+            <div>
+                <select name="city" id="city">
+                    <option value="Rajshahi">Rajshahi</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Dinajpur">Dinajpur</option>
+                    <option value="Chattogram">Chattogram</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <label for="pincode">Enter your pincode</label>
+            <div>
+                <input type="password" name="pincode" id="pincode">
+            </div>
+            <div>
+                <input type="submit" value="Sumbit">
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>
+```
