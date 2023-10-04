@@ -1,0 +1,16 @@
+/* class er jonne (.) use korte hoi...*/
+.red{
+    color: red;
+}
+
+.bg-yellow{
+    background-color: yellowgreen;
+}
+/* id er jonne (#) use korte hoi... */
+#firstDiv{
+    background-color: yellow
+}
+
+#secondDiv{
+    background-color: green;
+}

@@ -609,3 +609,64 @@ Without using br tag, write a vertically aligned form asking for name, city and 
 
 </html>
 ```
+
+> # <mark>Day-09</mark>
+
+## Id & Classes in HTML:
+
+> ### ID:
+```
+An ID is an attribute, a unique identifier assigned to only one HTML element within a page. It is often used for unique styling and JavaScript manipulations.
+
+Id linking eo kaj kore ...
+```
+
+> ### Class : 
+'''
+Eta general. Ekta property oneker moddhe dite chaile tader class same hobe...
+'''
+
+
+### HTML : 
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID and Classes in HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- same elements ke multiple class dite chaile ekta space dilei hobe...Kintu id ekjoner ektai and unique.... -->
+<!-- Id and class are attributes of elements -->
+
+    <div id="firstDiv" class="red bg-yellow">firstDiv</div>
+    <div id="secondDiv">secondDiv</div>
+
+    <span class="red"></span>
+</body>
+</html>
+```
+
+### CSS : 
+
+```css
+/* class er jonne (.) use korte hoi...*/
+.red{
+    color: red;
+}
+
+.bg-yellow{
+    background-color: yellowgreen;
+}
+/* id er jonne (#) use korte hoi... */
+#firstDiv{
+    background-color: yellow
+}
+
+#secondDiv{
+    background-color: green;
+}
+```
