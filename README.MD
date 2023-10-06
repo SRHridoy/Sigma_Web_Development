@@ -810,22 +810,24 @@ Id linking eo kaj kore ...
 
 3. auto: This value instructs the browser to preload the entire audio file as much as possible without delaying the loading of other important page content. The browser will try to load the audio file in the background so that it's ready to play when the user decides to start it.
 
-
 ## SVG in HTML:
 
 ### What is SVG?
-```SVG stands for Scalable Vector Graphics. Unlike raster images like PNGs or JPGs, SVGs are not pixel-based. They're composed of vectors—mathematical formulas that describe shapes, paths, and fills. This means SVGs can be resized without losing quality.```
+
+`SVG stands for Scalable Vector Graphics. Unlike raster images like PNGs or JPGs, SVGs are not pixel-based. They're composed of vectors—mathematical formulas that describe shapes, paths, and fills. This means SVGs can be resized without losing quality.`
 
 <!-- xmlns="http://www.w3.org/2000/svg"> -->
-This is a solution for svg not found...
 
+This is a solution for svg not found...
 
 ## iFrames in HTML:
 
 ### What is an iFrame?
+
 An iFrame is an HTML element that enables an inline frame for the embedding of external content. Essentially, you can load another web page within a designated area of your current webpage.
 
 ### Basic Syntax:
+
 ```html
 <iframe src="URL" width="width" height="height"></iframe>
 ```
@@ -835,28 +837,117 @@ An iFrame is an HTML element that enables an inline frame for the embedding of e
 ```html
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Video and Audio</title>
-</head>
+  </head>
 
-<body>
-    <video src="Motivation.mp4" height="255" controls loop muted autoplay poster="train.jpg"></video>
+  <body>
+    <video
+      src="Motivation.mp4"
+      height="255"
+      controls
+      loop
+      muted
+      autoplay
+      poster="train.jpg"
+    ></video>
 
     <audio src="" controls autoplay loop muted></audio>
     <svg height="100" width="100">
-        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+      <circle
+        cx="50"
+        cy="50"
+        r="40"
+        stroke="black"
+        stroke-width="3"
+        fill="red"
+      />
     </svg>
-    <img src="img.svg" alt="my svg">
+    <img src="img.svg" alt="my svg" />
 
-    <iframe src="https://chat.openai.com/c/5190150a-0087-4b39-91a6-0f755358b970" width="322" height="444"></iframe>
+    <iframe
+      src="https://chat.openai.com/c/5190150a-0087-4b39-91a6-0f755358b970"
+      width="322"
+      height="444"
+    ></iframe>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=-KZFKQeHXyhT6IHo&amp;start=786" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/XZwBNDGuWGU?si=-KZFKQeHXyhT6IHo&amp;start=786"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
+```
+
+> # <mark>Day-11</mark>
+
+## Semantic Tags in HTML :
+
+![Alt text](semantic-tags-1.png)
+## What are Semantic Tags?
+
+    Semantic tags add meaning to your HTML. They tell both the browser and the developer what kind of content is being presented.
+
+Here are some of the key semantic tags you must know about:
+
+1. <header>: Used to represent the top section of a web page, often containing headings, logos, and navigation.
+
+2. <nav>: Signifies a navigation menu on a web page.
+
+3. <article>: Indicates a self-contained piece of content, such as a blog post or news article.
+
+4. <section>: Represents a thematic grouping of content on a web page.
+
+5. <aside>: Typically used for sidebars or content that is tangentially related to the main content.
+
+6. <footer>: Represents the footer of a web page, usually containing copyright information and contact details.
+
+7. <figure> and <figcaption>: Used for embedding images, diagrams, or charts, along with a caption.
+
+8. <main>: Signifies the main content area of a web page.
+
+9. <time>: Used to represent time-related information, like dates and times.
 
 
+### Why Use Semantic Tags?
+  ```They enhance SEO, improve accessibility, and make your code easier to read and maintain.```
+
+
+### Today's HTML Code : 
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tags</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+        <h1>What are Semantic Tags</h1>
+    <img src="semantic-tags.png" alt="This is semantic-tags">
+    <footer>
+        Copyright SR | All rights reserved
+    </footer>
 </body>
-
 </html>
 ```
