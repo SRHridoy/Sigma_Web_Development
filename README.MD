@@ -951,3 +951,43 @@ Here are some of the key semantic tags you must know about:
 </body>
 </html>
 ```
+
+
+> # <mark>Day-14</mark>
+
+## HTML : 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+    /* here div is selector :*/
+        /* div{
+            color: red;
+            background-color: yellow;
+        } */
+    /* Using multiple selectors:  */
+        div,span{
+            color: red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Hey I am Hridoy and today I am in CSS Mood
+    </div>
+    <div>
+        I am Good
+    </div>
+    <span>
+        I am also Good...
+    </span>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi deserunt cupiditate sapiente veritatis autem reiciendis!</p>
+</body>
+</html>
+```
+
