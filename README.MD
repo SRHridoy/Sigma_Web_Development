@@ -991,3 +991,52 @@ Here are some of the key semantic tags you must know about:
 </html>
 ```
 
+
+> # <mark>Day-15</mark>
+## HTML : 
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal & External CSS</title>
+    <!-- This is Internal CSS -->
+    <!-- <style>
+        h1{
+            color: green;
+            background-color: yellow;
+        }
+    </style> -->
+
+    <!-- This is best and this is External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- This is inline CSS and it's not good -->
+    <!-- <h1 style="color: green; background-color: yellow;">Three ways to add CSS to HTML</h1> -->
+    <h1>Three ways to add CSS to HTML</h1>
+    <div>
+        <ol>
+            <li>Inline CSS</li>
+            <li>Internal CSS</li>
+            <li>External CSS</li>
+        </ol>
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+
+</html>
+```
+
+## CSS : 
+```css
+h1 {
+    color: green;
+    background-color: yellow;
+}
+
+```
