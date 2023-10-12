@@ -1040,3 +1040,88 @@ h1 {
 }
 
 ```
+
+> # <mark>Day-14</mark>
+## HTML : 
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors MasterClass</title>
+    <style>
+        /* Element Selector */
+        div{
+            background-color: red;
+        }
+        /* Class Selector */
+        .red{
+            background-color: greenyellow;
+        }
+        /* ID Selector */
+        #blue{
+            background-color: blue
+            ;
+        }
+        /* Child Selector ---> Direct Child hoba lagbe...*/
+        div > p {
+            background-color: yellow;
+        }
+        /* Descendant Selector ----> Direct Child na holeo hobe... */
+        div p {
+            background-color: palevioletred;
+        }
+
+        /* Universal Selector */
+        *{
+            background-color: black;
+            color: white;
+        }
+
+        /* Pseudo Selector */
+        a:visited{
+            color: red;
+        }
+        a:link{
+            color:greenyellow;
+        }
+        a:active{
+            background-color: greenyellow;
+        }
+
+        a:hover{
+            background-color: aqua;
+        }
+        P:first-child{
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>I am first in main</p>
+        <p>I am second in main</p>
+    </main>
+    <div class="red">
+        I am div...
+    </div>
+    <div>
+        I am another div...
+    </div>
+    <div id = "blue">
+        I am a another div...
+        <p>I am Para Inside DIV...</p>
+        <article>
+            <p>
+                I am from para which is in article and article is in div...
+            </p>
+        </article>
+    </div>
+    <a href="http://www.google.com">Google</a>
+    <a href="http://www.facebook.com">Facebook</a>
+</body>
+</html>
+```
