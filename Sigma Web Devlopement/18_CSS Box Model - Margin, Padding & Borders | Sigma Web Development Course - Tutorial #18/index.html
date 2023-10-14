@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boxmodel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            background-color: aqua;
+        }
+
+        /* Background color padding area te thake but margin area te thake nah... */
+        /* Total Width = Width + Left Padding + Right Padding + Left Border + Right Border + Left Margin + Right Margin
+
+        Total Height = Height + Top Padding + Bottom Padding +  Top Border + Bottom Border + Top Margin + Bottom Margin */
+        .box1 {
+            color: yellow;
+            padding: 10px;
+            margin: 35px;
+            border: 2px solid blue;
+            height: 200px;
+            /* Boxsizing border-box dile mot height 200 orthat content and padding and border sob milai height 200....ar an dile sudhud content 200 height... */
+            box-sizing: border-box;
+        }
+
+        .box2 {
+            color: red;
+            padding: 10px;
+            /* Margin collapse : 2 ta box er margin alada hole jeta max seta hobe... */
+            margin: 25px;
+            border: 2px solid black;
+            height: 200px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1">I am a box</div>
+    <div class="box box2">I am another box</div>
+</body>
+
+</html>
