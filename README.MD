@@ -1187,5 +1187,91 @@ h1 {
 ## CSS Fonts, Text & Color Properties :
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Fonts, Text & Color Properties </title>
+    <style>
+    /* External fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+        h1{
+            font-family: 'Poppins' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            letter-spacing: 20px;
+        }
+        p{
+            /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+            font-family: 'Baloo Bhai 2', sans-serif;
+            font-size: 20px;
+            /* line-height: 5; */
+            /* font-style: oblique;
+            font-weight: bolder; */
+            /* text-decoration:underline; */
+            /* text-decoration: overline; */
+            /* Important link for fonts */
+            /* https://codepen.io/web-dot-dev/pen/yLojraG  */
+        }
+        h2{
+            text-align: center;
+            text-transform:capitalize;
+            text-decoration: underline;
+            text-decoration-color: brown;
+            /* text-decoration-style: wavy; */
+            /* text-decoration-thickness: 4px; */
+            /* text-indent: 45px; */
+        }
+        .lorem{
+            border: 2px solid red;
+            width: 145px;
+            /* word-break: break-all; */
+            /* text-overflow: clip;
+            overflow: hidden; */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Fonts</h1>
+        <h2>About Fonts:</h2>
+        <p>This is paragraph...</p>
+        <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi iste fugiat tempora quaerat molestiae! Minima molestiae odit dolorem, voluptas repellendus voluptatum cupiditate corrupti molestias atque quibusdam delectus, accusamus non culpa dolore fugiat iure voluptate, vel reprehenderit. Error cumque doloribus eligendi debitis quisquam, temporibus at dignissimos.</p>
+    </div>
+</body>
+</html>
+```
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <style>
+        h1{
+        /* https://codepen.io/web-dot-dev/pen/ZELGraM */
+            /* color: darkred; */
+            /* color: #08abcd; */
+            /* color: rgb(255, 25, 0); */
+            /* color: rgb(212, 37, 25, .12); */
+            color: hsl(85, 100%, 50%);
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Let's learn about colors</h1>
+    <p>
+        Color can be represented in : 
+        <ol>
+            <li>Color Keywords</li>
+            <li>Hex Color Code</li>
+            <li>RBG</li>
+            <li>RGBA</li>
+            <li>HSL</li>
+        </ol>
+    </p>
+</body>
+</html>
 ```
