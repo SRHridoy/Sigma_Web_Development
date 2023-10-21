@@ -4,36 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Display Property</title>
+    <title>CSS Shadows and Outlines</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
         .box {
-            border: 2px solid blue;
-            display: inline-block;
-            width: 344px;
-            padding:45px;
-            margin: 34px; 
+            border: 2px solid black;
+            padding: 34px;
+            box-shadow: 5px 15px 5px #70a711;
         }
 
-        .box1{
-            /* display: none; */
-            /* visibility: hidden; */
+        .text-element {
+            text-shadow: 1px 4px 4px rgba(255, 2, 196, 0.903);
+            outline: 2px solid black;
+            border: 2px solid green;
+            border-radius: 34px;
+            outline-offset: 10px;
         }
     </style>
 </head>
 
 <body>
-    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/display -->
-    <div class="box box1">
+    <div class="box">
         I am a box
     </div>
-    <div class="box">also a nice box</div>
 
-    <span>I am a good</span>
-    <span>boy</span>
+    <p class="text-element">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum architecto alias ducimus dolorum voluptatem
+        optio consectetur. Sunt assumenda laboriosam quam molestiae laudantium vero nostrum iure, dolor, aliquam
+        blanditiis ipsum eos reprehenderit! Hic, voluptas adipisci.
+    </p>
 </body>
 
 </html>
