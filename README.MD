@@ -1275,3 +1275,81 @@ h1 {
 </body>
 </html>
 ```
+
+
+> # <mark>Day-22</mark>
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        html{
+            font-size: 12px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* rem er jonne */
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            height: 10vh;
+            /* Margin auto diye centre hoye jabe karon 80 vw ace ar block element hoilei hobe centre... */
+            margin: auto;
+            background-color: aquamarine;
+        }
+
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            /* height: 80vh; */
+            min-height: 80vh;
+            /* min height adjust all the contents any lenght of text */
+            margin: 23px auto;
+            font-size: 18px;
+            background-color: aquamarine;
+        }
+        .container p{
+        /* Ja ace tar koto gun ta em dara bujhai */
+            font-size: 2em;
+            /* root  ja tar koto gun rem */
+            /* font-size: 2rem; */
+
+            /* Parent er 50% */
+            border: 2px solid blue;
+            width: 50%;
+        }
+
+        .mycont{
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: red;
+            font-size: 22px;
+            width: 80vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">This is a box</div>
+    <div class="container">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur esse quam, maxime eius ipsa, autem commodi omnis quia totam dolorem perferendis pariatur officia nobis voluptatem harum soluta reprehenderit illum ex beatae, ea optio praesentium voluptates? Tenetur labore voluptate voluptatem aspernatur eos quidem aut! Quam earum, nulla culpa quaerat saepe, voluptatem non ipsa voluptate adipisci modi asperiores.</p>
+    </div>
+    <dev class="mycont">
+        I am another container...
+    </dev>
+</body>
+
+</html>
+```
