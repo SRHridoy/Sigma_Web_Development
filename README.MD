@@ -1398,3 +1398,155 @@ h1 {
 
 </html>
 ```
+
+> # <mark>Day-24</mark>
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadows and Outlines</title>
+    <style>
+        .box {
+            border: 2px solid black;
+            padding: 34px;
+            box-shadow: 5px 15px 5px #70a711;
+        }
+
+        .text-element {
+            text-shadow: 1px 4px 4px rgba(255, 2, 196, 0.903);
+            outline: 2px solid black;
+            border: 2px solid green;
+            border-radius: 34px;
+            outline-offset: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        I am a box
+    </div>
+
+    <p class="text-element">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum architecto alias ducimus dolorum voluptatem
+        optio consectetur. Sunt assumenda laboriosam quam molestiae laudantium vero nostrum iure, dolor, aliquam
+        blanditiis ipsum eos reprehenderit! Hic, voluptas adipisci.
+    </p>
+</body>
+
+</html>
+```
+
+> # <mark>Day-25</mark>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Lists</title>
+    <style>
+        nav ul li{
+            /* list-style: devanagari; */
+            list-style: none;
+            padding: 23px;
+            background-color: yellow;
+            list-style-position: inside;
+            border: 2px solid black;
+            /* list-style-image: url("https://images.pexels.com/photos/18686438/pexels-photo-18686438.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"); */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contract</li>
+        </ul>
+    </nav>
+</body>
+</html>
+```
+
+> # <mark>Day-26</mark>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Overflow property</title>
+    <style>
+        .box{
+            width: 30vw;
+            height: 10vw;
+            border: 2px solid black;
+            overflow: auto;
+            /* overflow: hidden; */
+            /* overflow: clip; */
+            /* overflow-x: hidden;
+            overflow-y: scroll; */
+            overflow: scroll scroll;
+            /* white-space: nowrap;
+            text-overflow: ellipsis; */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quod commodi culpa id fugiat, quam excepturi. Maiores porro obcaecati non corrupti cum! Tempore, saepe dignissimos tempora odio modi aut necessitatibus, reprehenderit eligendi quaerat animi magni temporibus nam esse aliquam libero debitis! Illum ducimus velit dolores.
+    </div>
+</body>
+</html>
+```
+
+> # <mark>Day-27</mark>
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: blue;
+            color: white;
+        }
+
+        div p:first-child{ 
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Write html and css code to style a paragraph inside a div which contains 5 other paragraphs. The first paragraph must have background color yellow and text color red. The other paragraphs must have background color blue and text color white. The HMTL is written below for your reference. Do not change this html -->
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo consectetur dicta fuga ea at
+            vitae suscipit, repellendus illum deleniti laboriosam ipsa distinctio.</p>
+        <p>I am another para</p>
+        <p>I am also another para</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo consectetur dicta fuga ea at
+            vitae suscipit, repellendus illum deleniti laboriosam ipsa distinctio.</p>
+        <p>I am another para</p>
+        <p>I am also another para</p>
+    </div>
+</body>
+
+</html>
+```
+
+> # <mark>Day-28</mark>
+
+```html
+
+```

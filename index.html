@@ -4,34 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Shadows and Outlines</title>
+    <title>CSS Position</title>
     <style>
-        .box {
-            border: 2px solid black;
-            padding: 34px;
-            box-shadow: 5px 15px 5px #70a711;
+        * {
+            margin: 0;
+            padding: 0;
         }
 
-        .text-element {
-            text-shadow: 1px 4px 4px rgba(255, 2, 196, 0.903);
-            outline: 2px solid black;
-            border: 2px solid green;
-            border-radius: 34px;
-            outline-offset: 10px;
+        .box {
+            height: 433px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+            border: 2px solid black;
+        }
+
+        .box1 {
+            background-color: aqua;
+            /* position: sticky;
+            top:0px;
+            height: 111px;
+            width:100%;
+            margin: 0;
+            padding: 0; */
+            position: absolute;
+            top: 0px;
+            left:3px;
+        }
+
+        .box2 {
+            background-color: azure;
+            /* position: relative;
+            top: 34px;
+            left: 56px; */
+        }
+
+        .box3 {
+            background-color: antiquewhite;
+            /* position: fixed;
+            bottom: 0px;
+            left:8vw;
+            height: 111px; */
+        }
+
+        .box4 {
+            background-color: purple;
+        }
+
+      
+
+        .parent {
+            padding: 43px;
+            margin: 34px;
+            border: 3px solid purple;
+            /* position: relative; */
+
+
+            /* Exception: transform, filter, or perspective properties can also make an element appear as positioned */
+            /* transform: translate(0); */
+            /* filter: invert(0); */
+            /* perspective: 0em; */
         }
     </style>
 </head>
 
 <body>
-    <div class="box">
-        I am a box
+    <div class="parent">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
     </div>
-
-    <p class="text-element">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum architecto alias ducimus dolorum voluptatem
-        optio consectetur. Sunt assumenda laboriosam quam molestiae laudantium vero nostrum iure, dolor, aliquam
-        blanditiis ipsum eos reprehenderit! Hic, voluptas adipisci.
-    </p>
 </body>
 
 </html>
